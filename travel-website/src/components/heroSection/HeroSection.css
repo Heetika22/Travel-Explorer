@@ -1,0 +1,50 @@
+
+.message {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .message h2, .hero-content p {
+    color: #ffffff; 
+  }
+  
+
+.carousel-item img {
+    width: 100%; 
+    height: 90vh;
+    object-fit: cover; 
+  }
+
+
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-indicators li {
+    display: block;
+  }
+  
+  .carousel-indicators li::before {
+    content: '';
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px; 
+  }
+  
+  .carousel-indicators .active::before {
+    background-color: #007bff;
+  }
+  
+  
